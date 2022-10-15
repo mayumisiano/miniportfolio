@@ -1,5 +1,5 @@
 body{
-    background-image: url(../imagens/fundo-site.jpg);
+    background-image: url("https://preview.redd.it/vl9u5xprcvv61.jpg?width=960&crop=smart&auto=webp&s=f6f10840171f3b380785476f37194315f8e2f253");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -17,7 +17,8 @@ body{
 .cartao{
     background-color: #070d12;
     width: 370px;
-    border: 2px dotted #e126d9;
+    /*border: 2px ridge #e126d9;*/
+    box-shadow: 5px 5px darkblue(0, 0, 0, 0.5); 
     border-radius: 10px;
     overflow: hidden;
 }
@@ -34,7 +35,7 @@ body{
     width:96px;
     height: 96px;
     border-radius: 50px;
-    border: 4px solid #02d08f;
+    border: 3px solid purple;
 }
 
 .cartao .minhas-informacoes .nome{
@@ -104,7 +105,7 @@ body{
 }
 
 .informacoes-abas .descricao span{
-    color: #02d08f;
+    color: mediumslateblue;
 }
 
 .redes-sociais{
